@@ -1,0 +1,161 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gio G. Fabros DC</title>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#welcome-section">HOME</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#profile-link">PROFILE</a></li>
+        </ul>
+    </nav>
+    
+    <section id="welcome-section">
+        <h1>GIO G. FABROS DC</h1>
+    </section>
+
+    <section id="projects">
+        <div class="project-tile">
+            <h2>Project 1</h2>
+            <p>Description of Project 1</p>
+            <a href="project1.html">View Project</a>
+        </div>
+        <!-- Add more project-tile elements here -->
+    </section>
+
+    <footer>
+        <a id="profile-link" href="https://github.com/yourusername" target="_blank">Visit My GitHub Profile</a>
+    </footer>
+
+    <script>
+        // JavaScript logic can be added here if needed
+    </script>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+#navbar {
+    background-color: #111;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; /* Ensure the navbar appears above other elements */
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#navbar li {
+    margin: 0 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Welcome section styles */
+#welcome-section {
+    background: linear-gradient(to bottom, #1a1a1a, #111);
+    text-align: center;
+    padding: 100px 0;
+    height: 100vh;
+}
+
+#welcome-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Projects section styles */
+#projects {
+    background-image: url('dark-background.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.project-tile {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    transition: transform 0.3s;
+}
+
+.project-tile:hover {
+    transform: scale(1.05);
+}
+
+.project-tile h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.project-tile p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.project-tile a {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Profile link styles */
+#profile-link {
+    display: block;
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    #navbar {
+        position: fixed;
+    }
+}
+
+
+** end of undefined **
+
